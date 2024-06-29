@@ -1,6 +1,6 @@
 # Variables
 CC = gcc
-CFLAGS = -Wall -pthread
+CFLAGS = -Wall -pthread -std=c99
 TARGET = filtro
 SRCS = main.c funciones.c
 OBJS = $(SRCS:.c=.o)
